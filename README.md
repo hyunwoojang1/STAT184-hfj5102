@@ -41,11 +41,11 @@ tidy_data <- armed_forces_data %>%
     names_pattern = "(.*)_(.*)",
     values_to = "Total_Personnel"
   ) %>%
-  mutate(Sex = if_else(Sex == "Male", "M", "F")) '''
-
+  mutate(Sex = if_else(Sex == "Male", "M", "F")) R
+```
 
 #### Contact
-hfj5102@psu.edu
+If you have any questions please contact me with following email: hfj5102@psu.edu
 
 
 
